@@ -52,7 +52,7 @@ public class SortingHubController implements Initializable {
         String stringF = String.format("%.0f", slider.getValue());
         sliderNum.setText(String.valueOf(stringF));
 
-        //getting and setting combo box
+        //getting and setting combo box1
         comboBox.getItems().setAll("Merge Sort", "Selection Sort");
         //setting the combo box to have Merge Sort as initialization
         comboBox.getSelectionModel().selectFirst();
